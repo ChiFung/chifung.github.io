@@ -733,8 +733,8 @@ pre {
 #ds-thread #ds-reset .ds-replybox .ds-avatar, #ds-reset .ds-avatar img {
   box-shadow: none; }
 
-#ds-thread #ds-reset .ds-textarea-wrapper {
-  border-color: #c7d4e1;
+#ds-thread #ds-reset form .ds-textarea-wrapper {
+  border-color: #ddd;
   background: none;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px; }
@@ -745,30 +745,26 @@ pre {
 #ds-reset .ds-rounded-top {
   border-radius: 0; }
 
-#ds-thread #ds-reset .ds-post-toolbar {
+#ds-thread #ds-reset form .ds-post-toolbar {
   box-sizing: border-box;
-  border: 1px solid #c7d4e1;
-  background: #fafafa; }
-
-#ds-thread #ds-reset .ds-post-options {
-  height: 40px;
   border: none;
+  background: none; }
+
+#ds-thread #ds-reset form .ds-post-options {
+  border: 1px solid #ddd;
   background: none; }
 
 #ds-thread #ds-reset .ds-toolbar-buttons {
   top: 11px; }
 
 #ds-thread #ds-reset .ds-sync {
-  top: 5px; }
+  top: 0px; }
 
-#ds-thread #ds-reset .ds-post-button {
-  top: 4px;
-  right: 5px;
-  width: 90px;
-  height: 30px;
-  border: 1px solid #c5ced7;
-  border-radius: 3px;
-  background-image: linear-gradient(#fbfbfc, #f5f7f9);
+#ds-thread #ds-reset form .ds-post-button {
+  border: 1px solid #ddd;
+  border-radius: 0 0 3px 0;
+  border-left: none;
+  background: #f0f0f0;
   color: #60676d; }
 
 #ds-thread #ds-reset .ds-post-button:hover {
@@ -802,7 +798,7 @@ pre {
 
 #ds-thread #ds-reset .ds-service-list a {
   background: none;
-  padding: 5px;
+  padding: 2px;
   border: 1px solid;
   border-radius: 3px;
   text-align: center; }
@@ -838,6 +834,9 @@ pre {
   border: none; }
   #ds-thread #ds-reset .ds-service-list .ds-more-services:hover {
     background: none; }
+
+#ds-share #ds-reset.ds-share-inline {
+  display: none; }
 
 /* syntax highlight*/
 figure.highlight,
