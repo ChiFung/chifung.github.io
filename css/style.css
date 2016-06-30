@@ -132,7 +132,10 @@ div {
         border-radius: 5px;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
-        box-shadow: none; }
+        box-shadow: none;
+        outline: none; }
+      #sidebar .widget .search-form input:focus {
+        border-bottom-color: #D26911; }
 
 /* title for search result or tagged posts*/
 .label-title {
@@ -1444,7 +1447,8 @@ table {
   padding: 0 15px;
   color: #555;
   outline: none;
-  border: 1px solid #ddd;
+  border: none;
+  border-bottom: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
   height: 36px;
   line-height: 36px; }
