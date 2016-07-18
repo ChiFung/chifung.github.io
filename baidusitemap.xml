@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://chifung.github.io/2016/07/01/iOS-Vibrate/</loc>
+    <lastmod>2016-07-01T10:34:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>iOS实现震动的方法</title>
+        <pubTime>2016-07-01T07:14:19.000Z</pubTime>
+        
+        <tag>iOS</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>https://chifung.github.io/2016/06/30/hello-world/</loc>
+    <lastmod>2016-06-30T05:08:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-06-30T05:08:27.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
